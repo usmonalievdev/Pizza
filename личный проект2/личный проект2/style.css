@@ -1,0 +1,516 @@
+    @import 'fonts.css';
+    * {
+        padding: 0;
+        margin: 0;
+        list-style: none;
+        text-decoration: none;
+    }
+    
+    body {
+        background: #ffffff;
+    }
+    
+     :root {
+        --green: #63c413;
+        --white: #ffffff;
+        --green2: #68bf3b;
+        --grey: #a6a6a6;
+        --black: #060503;
+        --f100: 'Montserrat-Black ';
+        --f200: 'Montserrat-Regular ';
+        --f300: 'Montserrat-Bold';
+        --f400: 'Montserrat-Light';
+        --f500: ' Montserrat-Thin   ';
+    }
+    
+    .justify-content-between {
+        justify-content: space-between;
+    }
+    
+    .justify-content-start {
+        justify-content: flex-start;
+    }
+    
+    .justify-content-center {
+        justify-content: center;
+    }
+    
+    .align-items-center {
+        align-items: center;
+    }
+    
+    .align-items-start {
+        align-items: flex-start;
+    }
+    
+    .flex-direction-column {
+        flex-direction: column;
+    }
+    
+    .flex-grow-1 {
+        flex-grow: 1;
+    }
+    /* --------HEADER-------- */
+    
+    header {
+        height: 775px;
+        padding-top: 30px;
+        background: url(./pizza.jpg) no-repeat center center / cover;
+    }
+    
+    header ul {
+        display: flex;
+    }
+    
+    header ul a {
+        font-size: 16px;
+        font-family: var(--f200);
+        color: var(--white);
+        background: var(--green2);
+        padding: 20px 25px;
+        text-decoration: none;
+        border-radius: 50px;
+        margin-left: 50px;
+    }
+    
+    header ul a:hover {
+        color: var(--white);
+        background: #3f7525;
+    }
+    
+    header ul .plus {
+        font-size: 24px;
+        font-family: var(--f200);
+        color: var(--white);
+    }
+    
+    header .logo {
+        font-size: 24px;
+        font-family: var(--f300);
+        color: var(--white);
+        text-transform: uppercase;
+        text-decoration: none;
+    }
+    
+    header .logo:hover {
+        color: #c7c4c4;
+    }
+    
+    header .p1 {
+        margin-top: 195px;
+        font-size: 18px;
+        font-family: var(--f100);
+        color: var(--white);
+        text-transform: uppercase;
+    }
+    
+    header h1 {
+        font-size: 72px;
+        font-family: var(--f100);
+        color: var(--white);
+        text-transform: uppercase;
+    }
+    
+    header .p2 {
+        font-size: 18px;
+        font-family: var(--f200);
+        color: var(--white);
+        text-transform: uppercase;
+        margin-top: 20px;
+    }
+    
+    header .a1 {
+        font-size: 16px;
+        font-family: var(--f200);
+        text-decoration: none;
+        color: var(--white);
+        background: linear-gradient( to top, #3f8a02, #68cd16);
+        padding: 20px 43px;
+        border-radius: 50px;
+        margin-top: 50px;
+    }
+    
+    header .a1:hover {
+        background: #3f7525;
+    }
+    /* --------MAIN-------- */
+    
+    main .picture {
+        margin-top: 90px;
+        width: 100%;
+    }
+    
+    main h2 {
+        font-size: 36px;
+        font-family: var(--f300);
+        color: var(--green2);
+        text-transform: uppercase;
+        margin-top: 107px;
+        margin-left: 100px;
+    }
+    
+    main p {
+        font-size: 18px;
+        font-family: var(--f200);
+        color: #bdbdbd;
+        width: 680px;
+        margin-top: 65px;
+        text-align: center;
+    }
+    
+    main h6 {
+        font-size: 24px;
+        font-family: var(--f200);
+        color: #bdbdbd;
+        margin-top: 71px;
+        text-align: center;
+    }
+    
+    .var {
+        align-items: center;
+        justify-content: center;
+    }
+    
+    main .sign {
+        display: flex;
+        align-items: center;
+    }
+    /* --------SECTION-------- */
+    
+    section .pizza-image img {
+        width: 100%;
+    }
+    
+    section .pizza-image {
+        position: relative;
+        margin-top: 50px;
+    }
+    
+    section .pizza-image button {
+        background: var(--green2);
+        border: none;
+        padding: 15px 8px;
+        border-radius: 75%;
+        color: #ffffff;
+        position: absolute;
+        top: 0;
+        left: 0;
+        margin-top: 30px;
+        margin-left: 30px;
+    }
+    
+    section h2 {
+        font-size: 36px;
+        font-family: var(--f300);
+        color: #e1f5d0;
+        text-transform: uppercase;
+    }
+    
+    section h3 {
+        font-size: 30px;
+        font-family: var(--f300);
+        color: #a6a6a6;
+        text-transform: uppercase;
+        margin-top: 60px;
+        margin-left: 33px;
+    }
+    
+    section .bala .opit {
+        font-size: 30px;
+        font-family: var(--f300);
+        color: #a6a6a6;
+        margin-bottom: 33px;
+    }
+    
+    section .bala .opit span {
+        font-size: 18px;
+        font-family: var(--f400);
+        color: #a6a6a6;
+        text-transform: uppercase;
+    }
+    
+    section .bala a {
+        font-size: 16px;
+        font-family: var(--f200);
+        color: var(--white);
+        background: linear-gradient( to top, #3d8701, #6ad017);
+        text-decoration: none;
+        padding: 22px 45px 20px 42px;
+        border-radius: 50px;
+        margin-top: 35px;
+    }
+    
+    section .bala a:hover {
+        background: #376b0c;
+    }
+    
+    section .peperoni {
+        font-size: 14px;
+        color: #a6a6a6;
+        max-width: 200px;
+        margin-left: 33px;
+    }
+    
+    section .sec00 {
+        margin-top: 150px;
+    }
+    
+    section .sec00 h6 {
+        font-size: 14px;
+        font-family: var(--f300);
+        color: #a6a6a6;
+        text-transform: uppercase;
+        text-align: center;
+        margin-top: 27px;
+    }
+    
+    section .sec00 p {
+        font-size: 14px;
+        font-family: var(--f200);
+        color: #a6a6a6;
+        text-align: center;
+        width: 340px;
+    }
+    
+    .sec00 img {
+        width: 100%;
+        height: auto;
+        box-sizing: border-box;
+    }
+    /* --------FOOTER-------- */
+    
+    footer {
+        background: var(--black);
+        height: 200px;
+    }
+    
+    footer ul a {
+        font-size: 16px;
+        font-family: var(--f200);
+        color: var(--white);
+        background: var(--green2);
+        padding: 20px 25px;
+        text-decoration: none;
+        border-radius: 50px;
+        margin-left: 50px;
+    }
+    
+    footer ul a:hover {
+        color: var(--white);
+        background: #3f7525;
+    }
+    
+    ul .plus {
+        font-size: 24px;
+        font-family: var(--f200);
+        color: var(--white);
+    }
+    
+    footer .logo {
+        font-size: 24px;
+        font-family: var(--f300);
+        color: var(--white);
+        text-transform: uppercase;
+        text-decoration: none;
+    }
+    
+    footer .logo:hover {
+        color: #c7c4c4;
+    }
+    
+    footer .li {
+        font-size: 16px;
+        font-family: var(--f500);
+        color: var(--white);
+    }
+    
+    footer .sd {
+        margin: auto;
+        text-align: center;
+        padding-top: 63px;
+    }
+    
+    footer ul {
+        display: flex;
+        margin-top: 38px;
+    }
+    
+    @media(max-width:768px) {
+        header ul a {
+            font-size: 10px;
+            padding: 20px 15px;
+        }
+        header .logo {
+            font-size: 15px;
+        }
+        header .p1 {
+            font-size: 14px;
+        }
+        header h1 {
+            font-size: 60px;
+        }
+    }
+    
+    @media(max-width:535px) {
+        header ul .plus {
+            font-size: 15px;
+        }
+        header ul a {
+            font-size: 8px;
+            padding: 15px 10px;
+        }
+        header h1 {
+            font-size: 45px;
+        }
+        header .logo {
+            font-size: 10px;
+        }
+    }
+    
+    @media(max-width:905px) {
+        main h2 {
+            font-size: 20px;
+        }
+        main p {
+            font-size: 14px;
+            width: 400px;
+        }
+        main h6 {
+            font-size: 15px;
+        }
+    }
+    
+    @media(max-width:745px) {
+        .sec00 .col-6 {
+            width: 30%;
+        }
+        section .sec00 p {
+            font-size: 10px;
+            width: 100px;
+        }
+        section .sec00 h6 {
+            font-size: 10px;
+        }
+    }
+    
+    @media(max-width:745px) {
+        section .pizza-image button {
+            padding: 7px 2px;
+            border-radius: 45%;
+            margin-top: 0px;
+            margin-left: 0px;
+        }
+        footer .logo {
+            font-size: 15px;
+        }
+        ul .plus {
+            font-size: 16px;
+        }
+        ooter ul a {
+            font-size: 10px;
+            padding: 15px 20px;
+        }
+        footer .li {
+            font-size: 10px;
+        }
+    }
+    
+    @media(max-width:992px) {
+        section .bala a {
+            font-size: 8px;
+            padding: 20px 40px 18px 38px;
+        }
+    }
+    
+    @media(max-width:540px) {
+        section h3 {
+            font-size: 18px;
+        }
+        section .peperoni {
+            font-size: 10px;
+            max-width: 300px;
+        }
+        section .bala .opit {
+            font-size: 15px;
+        }
+        section .bala .opit span {
+            font-size: 8px;
+        }
+        footer ul a {
+            font-size: 10px;
+            padding: 15px 20px;
+        }
+        ul .plus {
+            font-size: 8px;
+        }
+        footer .logo {
+            font-size: 10px;
+        }
+        footer .li {
+            font-size: 8px;
+        }
+    }
+    
+    @media(max-width:515px) {
+        section h3 {
+            font-size: 9px;
+        }
+        section .peperoni {
+            font-size: 7px;
+        }
+        section .bala a {
+            font-size: 5px;
+            padding: 15px 35px 12px 32px;
+        }
+        section .bala .opit {
+            font-size: 10px;
+        }
+        section .bala .opit span {
+            font-size: 6px;
+        }
+    }
+    
+    @media(max-width:403px) {
+        main p {
+            font-size: 10px;
+            width: 350px;
+        }
+        section .bala a {
+            font-size: 5px;
+            padding: 10px 25px 10px 25px;
+        }
+        section .peperoni {
+            font-size: 5px;
+            max-width: 800px;
+        }
+    }
+    
+    @media(max-width:390px) {
+        footer ul a {
+            font-size: 7px;
+            padding: 10px 15px;
+        }
+        header ul .plus {
+            font-size: 8px;
+        }
+    }
+    
+    @media(max-width:351px) {
+        main p {
+            font-size: 8px;
+            width: 320px;
+        }
+        main h2 {
+            font-size: 15px;
+        }
+        section h3 {
+            font-size: 7px;
+        }
+        section .bala a {
+            font-size: 5px;
+            padding: 8px 20px 8px 20px;
+        }
+        main h2 {
+            margin-left: 60px;
+        }
+    }
